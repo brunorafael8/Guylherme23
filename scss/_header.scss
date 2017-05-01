@@ -1,0 +1,27 @@
+nav {
+    background-color: #c2baba;
+    .container-fluid{
+        button{
+            i{
+                font-size: 30px;
+            }
+        }
+        .navbar-nav{
+            background-color: #fff;
+            li{
+                border-bottom: 1px black solid;
+            
+                a{
+                    font: 15px $font_main;
+                    font-weight: 700;
+                    color: black;   
+                    
+                }
+            }
+        }
+    }
+    header{
+
+    }
+  
+}
