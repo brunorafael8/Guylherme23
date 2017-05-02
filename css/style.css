@@ -17,3 +17,11 @@ nav {
         font: 15px "Open Sans", Helvetica, Arial, sans-serif;
         font-weight: 700;
         color: black; }
+
+.social {
+  background-color: #07619a;
+  width: 100%;
+  height: 300px; }
+  .social h2 {
+    text-align: center;
+    margin: 10px 0 0 0; }
