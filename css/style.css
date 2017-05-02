@@ -1,27 +1,62 @@
-/*DESTAQUES*/
-@font-face {
-  .fa {
-    font-family: 'FontAwesome';
-    src: url("../fonts/fontawesome-webfont.eot");
-    src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg") format("svg"); } }
+.heading {
+  width: 100%;
+  height: 50px;
+  max-height: 100px;
+  background-color: #07619a; }
+  .heading .text-heading {
+    margin: 10px 0 30px;
+    font: bold 22px "Roboto Slab", Helvetica, Arial, sans-serif;
+    color: #000000;
+    position: relative;
+    line-height: 30px;
+    text-indent: 14px; }
 
-nav {
-  background-color: #c2baba; }
-  nav .container-fluid button i {
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: .25s box-shadow; }
+  .card:focus, .card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+  .card .card-block {
+    padding: 0 0 30px 30px; }
+
+#header {
+  background-color: #D7CCC8; }
+  #header button i {
+    margin: 5px 10px 10px 0px;
     font-size: 30px; }
-  nav .container-fluid .navbar-nav {
-    background-color: #fff; }
-    nav .container-fluid .navbar-nav li {
-      border-bottom: 1px black solid; }
-      nav .container-fluid .navbar-nav li a {
-        font: 15px "Open Sans", Helvetica, Arial, sans-serif;
-        font-weight: 700;
-        color: black; }
+  #header .collapse ul li a {
+    font: 15px "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: black; }
 
-.social {
-  background-color: #07619a;
+#social {
   width: 100%;
   height: 300px; }
-  .social h2 {
+  #social h2 {
+    padding: 0 0 30px 30px;
     text-align: center;
-    margin: 10px 0 0 0; }
+    margin: 10px 0 0 0;
+    font: bold 30px/40px "Roboto Slab", Helvetica, Arial, sans-serif;
+    color: #000; }
+  #social .redes .face {
+    margin-top: 30px;
+    text-align: center; }
+    #social .redes .face .fa {
+      font-size: 40px;
+      color: #0D47A1; }
+    #social .redes .face span {
+      font: bold 40px "Open Sans", Helvetica, Arial, sans-serif;
+      color: #0D47A1; }
+  #social .redes .insta {
+    margin-top: 10px;
+    text-align: center; }
+    #social .redes .insta .fa {
+      font-size: 40px;
+      color: #EF6C00; }
+    #social .redes .insta span {
+      font: bold 40px "Open Sans", Helvetica, Arial, sans-serif;
+      color: #EF6C00; }
+
+#projetos .container {
+  margin-top: 20px; }

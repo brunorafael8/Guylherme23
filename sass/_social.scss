@@ -1,9 +1,40 @@
-.social{
-    background-color: #07619a;
+#social{
+    
     width: 100%;
     height: 300px;
     h2{
+        padding: 0 0 30px 30px;
         text-align: center;
         margin: 10px 0 0 0;
+        font: bold 30px/40px $font_title;
+        color: #000;
+    }
+    .redes{
+        .face{
+            margin-top: 30px;
+            text-align: center;
+            .fa{
+               
+                font-size: 40px;
+                color: #0D47A1;
+            }
+            span{
+                font: bold 40px $font_main;
+                color: #0D47A1;
+            }
+        }
+        .insta{
+            margin-top: 10px;
+            text-align: center;
+            .fa{
+               
+                font-size: 40px;
+                color: #EF6C00;
+            }
+            span{
+                font: bold 40px $font_main;
+                color: #EF6C00;
+            }
+        }
     }
 }
