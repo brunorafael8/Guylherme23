@@ -35,15 +35,15 @@ gulp.task('serve', ['sass'], function() {
         server: "./"
     });
 
-    gulp.watch("scss/*.scss", ['sass']);
+    gulp.watch("./sass/*.scss", ['sass']).on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
 gulp.task('sass', function () {
-    gulp.src('./sass/**/*.scss')
+    gulp.src('./sass/style.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css'));
 });
 
 gulp.task('sass:watch', function () {
-    gulp.watch('./sass/**/*.scss', ['sass']);
+    gulp.watch('./sass/style.scss', ['sass']);
 });
