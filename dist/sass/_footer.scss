@@ -1,0 +1,37 @@
+#footer{
+		background: url(../img/background.jpg);
+		padding: 20px 0 95px;
+		.widget__title{
+			text-align: center;
+			font: bold 30px $font_title;
+			color: $color_canditato;
+		}
+	}
+.footer__rede{
+	>.container__social{
+		display: flex;
+		justify-content: center;
+
+		a{
+			text-align: center;
+			margin: -10px 0 0 0px;
+			&:nth-child(1){
+				margin-right: 30px;
+			}
+			i{
+				
+				text-align: center;
+				text-decoration: none;
+				color: $color_canditato;
+				font-size: 30px;
+				margin-top: 10px;
+
+			}	
+		}
+
+
+	}
+}
+
+
+
