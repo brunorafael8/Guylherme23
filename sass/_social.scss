@@ -1,14 +1,6 @@
 #social{
     width: 100%;
-    background-color: rgba(226,226,226,1);
-background: rgba(255,255,255,1);
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+
     h2{
              text-align: center;
             font: bold 30px $font_title;
@@ -18,13 +10,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
             text-decoration: none;
         }
         .face{
-            display: flex;
-            text-align: left;
-            margin-bottom: 10px;
             .fa{
                 margin: 0 10px 0 0;
                 font-size: 40px;
                 color: #395692;
+                display: none;
+            }
+            iframe{
+       
             }
         }
         .insta{
@@ -34,8 +27,46 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
                 margin: 0 10px 0 0;
                 font-size: 40px;
                 color: #f4a422;
+                display: none;
             }
 
+        }
+    }
+}
+@media only screen and (min-width: 600px){ 
+    #social{
+    width: 100%;
+    
+    h2{
+             text-align: center;
+            font: bold 30px $font_title;
+    }
+    .redes{
+        a{
+            text-decoration: none;
+        }
+        .face{
+
+            .fa{
+                margin: 0 10px 0 0;
+                font-size: 40px;
+                color: #395692;
+                display: initial;
+                float: left;
+                
+            }
+        }
+        .insta{
+            display: flex;
+            text-align: left;
+            .fa{
+                margin: 0 10px 0 0;
+                font-size: 40px; 
+                color: #f4a422;
+                display: initial;
+                
+                }
+            }
         }
     }
 }

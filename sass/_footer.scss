@@ -1,46 +1,37 @@
 #footer{
-		background-color: $color_canditato;
+		background: url(../img/background.jpg);
 		padding: 20px 0 95px;
 		.widget__title{
 			text-align: center;
-			font: bold 20px $font_title;
+			font: bold 30px $font_title;
+			color: $color_canditato;
 		}
 	}
 .footer__rede{
 	>.container__social{
 		display: flex;
-		justify-content: center
+		justify-content: center;
+
+		a{
+			text-align: center;
+			margin: -10px 0 0 0px;
+			&:nth-child(1){
+				margin-right: 30px;
+			}
+			i{
+				
+				text-align: center;
+				text-decoration: none;
+				color: $color_canditato;
+				font-size: 30px;
+				margin-top: 10px;
+
+			}	
+		}
+
 
 	}
 }
-			.box_footer{
-				text-align: center;
-				width: 15%;
-				height: 40px;
-				background-color: #fff;
-				border-radius: 5px 5px 5px 5px;
-				-moz-border-radius: 5px 5px 5px 5px;
-				-webkit-border-radius: 5px 5px 5px 5px;
-				border: 1px solid #fff;
-				-webkit-box-shadow: 5px 50px 5px 0px rgba(0,0,0,0.75);
-				-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-				box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-				margin-left: 5px;
 
 
-				> i {
-					text-decoration: none;
-					color: black;
-					font-size: 20px;
-					margin-top: 10px;
-
-				}	
-
-		}
-
-			.box_footer:hover{
-					background-color: $color_canditato;
-					border: 1px solid #000;
-					
-				}
 
